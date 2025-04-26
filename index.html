@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrimsonStudios Plugin Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simpledotcss/simple.min.css">
+</head>
+<body>
+    <header>
+        <h1>🔧 CrimsonStudios Plugin Generator</h1>
+    </header>
+
+    <main>
+        <h2>🧩 Select Plugin</h2>
+        <select id="pluginSelect">
+            <option value="HallStair.zip">HallStair - Anti-Lag Plugin</option>
+            <option value="EasyTeleport.zip">EasyTeleport - Easy Teleport Plugin</option>
+        </select>
+
+        <h3>🔑 Enter License Key</h3>
+        <input type="text" id="licenseKey" placeholder="ex: abcd-efgh-ijkl-mnop">
+
+        <h3>🌐 Enter Server IP</h3>
+        <input type="text" id="serverIP" placeholder="ex: play.example.com">
+
+        <br><br>
+        <button onclick="generatePlugin()">🎯 Generate Customized Plugin</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
