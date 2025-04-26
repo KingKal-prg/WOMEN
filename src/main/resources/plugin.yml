@@ -1,0 +1,8 @@
+name: EasyTeleport
+version: 1.0
+main: me.crimsonstudios.easyteleport.Main
+api-version: 1.20
+commands:
+  tpme:
+    description: Teleport to a player
+    usage: /tpme <player>
